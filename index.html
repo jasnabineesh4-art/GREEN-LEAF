@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Green Leaf Homestay - Your perfect getaway in nature. Experience tranquility and comfort with us.">
+    <title>Green Leaf Homestay</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- PAGE LOADER -->
+    <div id="page-loader">
+        <div class="loader-leaf">
+            <i class="fa-solid fa-leaf"></i>
+            <p>Green Leaf</p>
+        </div>
+    </div>
+
+    <!-- CUSTOM CURSOR -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-leaf"></i> GREEN LEAF
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact" class="btn-primary">Book Now</a></li>
+        </ul>
+        <div class="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION — uses the attached pool/house image saved locally -->
+    <header id="home" class="hero" style="background-image: url('image/e6ee41e7-cc0d-45e9-b1fc-516bee8f6d97.jfif'); background-size: cover; background-position: center;">
+        <div class="hero-overlay"></div>
+        <div id="hero-particles" class="hero-particles"></div>
+        <div class="hero-content">
+            <p class="hero-tagline fadeInUp">Welcome to</p>
+            <h1 class="fadeInUp delay-1"><span>Green Leaf</span> Homestay</h1>
+            <p class="hero-sub fadeInUp delay-2">Your escape for <span id="typing-text" class="typing-word">Tranquility</span><span class="typing-cursor">|</span></p>
+            <div class="hero-actions fadeInUp delay-3">
+                <a href="#contact" class="btn-primary-large"><i class="fa-solid fa-calendar-check"></i> Plan Your Stay</a>
+                <a href="#gallery" class="btn-secondary-large"><i class="fa-solid fa-images"></i> Explore Gallery</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+    </header>
+
+    <!-- FEATURES STRIP -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card reveal">
+                    <i class="fa-solid fa-water-ladder"></i>
+                    <h3>Swimming Pool</h3>
+                    <p>Take a refreshing dip in our beautiful private pool surrounded by greenery.</p>
+                </div>
+                <div class="feature-card reveal delay-1">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <h3>Scenic Views</h3>
+                    <p>Wake up to breathtaking landscapes and refreshing morning breezes.</p>
+                </div>
+                <div class="feature-card reveal delay-2">
+                    <i class="fa-solid fa-bed"></i>
+                    <h3>Cozy Rooms</h3>
+                    <p>Luxurious yet traditional rooms designed for your ultimate comfort.</p>
+                </div>
+                <div class="feature-card reveal delay-3">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h3>Local Cuisine</h3>
+                    <p>Relish authentic, home-cooked local dishes prepared with love.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION — uses a Drive image -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <span class="section-tag">About Us</span>
+                    <h2><span class="text-highlight">Experience</span> the perfect harmony of luxury and nature.</h2>
+                    <p>Nestled amidst lush greenery, Green Leaf Homestay offers a tranquil retreat from the hustle and bustle of city life. We provide a perfect blend of modern amenities and traditional hospitality.</p>
+                    <p>Whether you're looking for a peaceful getaway, an adventurous weekend, or simply a place to relax and rejuvenate, Green Leaf is your ultimate destination.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num" data-count="10" data-suffix="+">0+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num" data-count="500" data-suffix="+">0+</span>
+                            <span class="stat-label">Happy Guests</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num" data-count="49" data-suffix="★">0★</span>
+                            <span class="stat-label">Average Rating</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-outline">Get In Touch <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="about-image-wrapper reveal delay-1">
+                    <img
+                        src="image/80f13459-a5f5-4299-ab9f-62e5172e069b.jfif"
+                        alt="Green Leaf Homestay View"
+                        class="about-img"
+                    >
+                    <div class="about-img-secondary-wrapper">
+                        <img
+                            src="image/e6ae6c00-55a3-4b08-a00a-57440bc5839d.jfif"
+                            alt="Green Leaf Room"
+                            class="about-img-secondary"
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROOMS SHOWCASE -->
+    <section id="rooms" class="rooms dark-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag light">Our Spaces</span>
+                <h2>Spaces <span class="text-highlight">You'll Love</span></h2>
+                <p>Every corner of Green Leaf is designed to make you feel at home.</p>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card reveal">
+                    <img src="image/655e2b5c-bff4-47d8-8509-8cf3a9445a97.jfif" alt="Deluxe Room">
+                    <div class="room-info">
+                        <h3>Deluxe Room</h3>
+                        <p>Spacious rooms with balcony and garden view.</p>
+                    </div>
+                </div>
+                <div class="room-card reveal delay-1">
+                    <img src="image/be66f44f-0888-4a30-a47d-3c79b285f859.jfif" alt="Pool View Suite">
+                    <div class="room-info">
+                        <h3>Pool View Suite</h3>
+                        <p>Enjoy stunning pool views from your private suite.</p>
+                    </div>
+                </div>
+                <div class="room-card reveal delay-2">
+                    <img src="image/4eb6adc9-dc35-4864-aaba-375bda2a3b1b.jfif" alt="Nature Cottage">
+                    <div class="room-info">
+                        <h3>Nature Cottage</h3>
+                        <p>Cozy cottage surrounded by lush tropical greenery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Photo Gallery</span>
+                <h2>Our <span class="text-highlight">Gallery</span></h2>
+                <p>A glimpse into your next favourite destination. Click any image to enlarge.</p>
+            </div>
+            <div class="gallery-grid" id="gallery-container">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Reach Us</span>
+                <h2>Get In <span class="text-highlight">Touch</span></h2>
+                <p>Ready to book your stay? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-card glass-card reveal">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Call / WhatsApp</h4>
+                                <a href="tel:+918606727320">+91 8606727320</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <a href="https://maps.google.com/maps?cid=3938215601485073106" target="_blank">View on Google Maps</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:info@greenleafhomestay.com">info@greenleafhomestay.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="tel:+918606727320" class="btn-primary-large cta-call">
+                        <i class="fa-solid fa-phone-volume"></i> Call Now to Book
+                    </a>
+                </div>
+                <div class="map-container">
+                    <a href="https://maps.google.com/maps?cid=3938215601485073106" target="_blank" class="map-overlay-link">
+                        <div class="map-overlay-content">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <span>Open in Google Maps</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3><i class="fa-solid fa-leaf"></i> GREEN LEAF</h3>
+                <p>Your sanctuary in nature.</p>
+                <p class="footer-phone"><i class="fa-solid fa-phone"></i> +91 8606727320</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/918606727320" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Green Leaf Homestay. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img src="" alt="Gallery Image" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
